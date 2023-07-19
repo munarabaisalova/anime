@@ -1,0 +1,103 @@
+body {
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEm3lt9eOHBrj4UVWX3bNq9zL0R3cAhuEEzP9sl7t2Dx_hkGFgE1cjjoyH44tIcZEObOM&usqp=CAU);
+   background-position: 0%;
+   background-size: cover;
+   height: 600px;
+   width: auto;
+}
+
+
+div {
+    width: 400px;
+    height: 300px;
+    /* background-color: red; */
+    background-image: url(https://i.pinimg.com/originals/86/8c/8a/868c8acba846cc1514911ca9d05fbc4d.gif);
+    /* border-radius: 50%;
+    border: 2px solid;
+    box-shadow: 0px 0px 5px 5px gold; */
+    position: relative;
+    animation: nike 7s infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+   
+}
+.day {
+ background-image: url(https://sunveter.ru/uploads/posts/2014-04/1397163863_sun8b.gif);  
+ width: 230px;
+ height: 230px;
+ position: relative;
+ animation: days 2s infinite;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 0%;
+
+}
+.anime {
+    width: 230px;
+    height: 200px;
+
+    background-image: url(https://gif-kartinki.ru/babochki/animacija-babochka_09.gif);
+   
+    position: relative;
+    animation: animes 9s infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+}
+@keyframes nike {
+    0% {
+        left: 100px;
+        top :10px
+    }
+    25% {
+        left: 300px;
+        top :200px;
+        /* background-color: green;
+        box-shadow: 0px 0px 5px 5px fuchsia;
+        border-radius: 20px; */
+
+        
+    }
+    50% {
+        left: 1000px;
+        top :400px
+    }
+    100% {
+        left: 10px;
+        top :40px
+    }
+}
+@keyframes animes {
+    0% {
+        left: 1000px;
+        top :20px
+    }
+    25% {
+        left: 300px;
+        top :200px;
+      
+        
+    }
+    50% {
+        left: 1000px;
+        top :40px
+    }
+    100% {
+        left: 1000px;
+        top :30px
+    }
+}
+@keyframes days {
+    0% {
+        left: 10px;
+        top :10px
+    }
+    25% {
+        left: 30px;
+        transform: rotate(360deg);
+
+        
+    }
+   
+}
